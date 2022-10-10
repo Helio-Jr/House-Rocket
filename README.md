@@ -11,6 +11,8 @@ A House Rocket é uma empresa fictícia do ramo imobiliário que lucra a partir 
 
 # Atributos
 
+![Dicionario_Colunas](https://user-images.githubusercontent.com/68931118/194935580-43318e09-df49-4c8c-b010-96ec0625e499.png)
+
 # Premissas de Negócio
 
 Para o desenvolvimento desse projeto, foram determinadas as seguintes premissas:
