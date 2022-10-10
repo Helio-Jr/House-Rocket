@@ -53,6 +53,7 @@ Streamlit
 Amazon EC2
 
 Manipulação de dados: pandas, numpy
+
 Visualização de dados: seaborn, plotly, folium
 
 # Principais insights
