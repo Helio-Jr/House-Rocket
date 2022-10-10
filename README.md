@@ -1,6 +1,6 @@
 # House Rocket Project
 
-![Logo da empresa House Rocket](House Rocket.png)
+![House_Rocket_Logo](https://user-images.githubusercontent.com/68931118/194935369-bed73ceb-a037-4ecf-8d2d-4e3b5a722b78.png)
 
 A House Rocket é uma empresa fictícia do ramo imobiliário que lucra a partir da compra e venda de imóveis, tendo como principal estratégia a compra de casas em boas condições por um baixo preço, as vendendo por um valor superior. Visando maximizar a eficiência na busca das melhores oportunidades de mercado e obter uma maior noção de qual preço aplicar em cima dos imóveis comprados, a empresa solicitou este projeto utilizando ferramentas de Ciência de Dados para gerar insights através da manipulação dos dados e consequentemente auxiliar as melhores decisões da equipe de negócios.
 
