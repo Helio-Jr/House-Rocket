@@ -80,3 +80,12 @@ Hipótese 10: Imóveis variam 4% ou mais o preço por nota de design, em média.
 Imóveis foram agrupados por região e foi calculada a mediana do preço dos imóveis dentro de cada estação do ano dentro de cada região. Todos os imóveis com o valor inferior a maior mediana de preço da sua região e com distancia de pelo menos 5% a ela foram indicados para compra. Para cada um desses imóveis selecionados foi sugerido o valor e melhor momento de venda, variando de acordo com sua região, condição e melhor mediana de preço por estação da sua região.
 
 Caso a empresa consiga comprar e revender todos os imóveis pelos valores de compra e venda estipulados, a mesma terá um lucro de ~$287.879.849 (Sem levar em conta outros gastos da empresa durante esse período). 
+
+# Próximos passos
+
+Esse projeto desenvolvido com ferramentas da ciência de dados foi capaz de solucionar as questões de negócio, além de gerar insights para ajudar o departamento de negócios. Apesar disso, aqui estão algumas sugestões para a continuação e desenvolvimento do projeto:
+
+- Adicionar coloração por preço no mapa de exibição dos imóveis recomendados para compra.
+- Utilizar algoritmos de Machine Learning para chegar ainda mais próximo de um valor ideal para venda.
+- Separar o dashboard por páginas (Data Overview, Hipóteses, Questões de Negócio)
+- Criar novas hipóteses
