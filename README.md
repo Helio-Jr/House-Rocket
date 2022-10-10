@@ -43,8 +43,11 @@ Cronograma de estratégias para resolução do projeto:
 # Ferramentas
 
 Python 3.8.10
+
 Vscode
+
 Streamlit
+
 Amazon EC2
 
 Manipulação de dados: pandas, numpy
