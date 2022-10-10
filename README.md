@@ -4,6 +4,8 @@
 
 A House Rocket é uma empresa fictícia do ramo imobiliário que lucra a partir da compra e venda de imóveis, tendo como principal estratégia a compra de casas em boas condições por um baixo preço, as vendendo por um valor superior. Visando maximizar a eficiência na busca das melhores oportunidades de mercado e obter uma maior noção de qual preço aplicar em cima dos imóveis comprados, a empresa solicitou este projeto utilizando ferramentas de Ciência de Dados para gerar insights através da manipulação dos dados e consequentemente auxiliar as melhores decisões da equipe de negócios.
 
+- [Link](http://54.147.183.107:8501)
+
 # Questões de Negócio
 
 1. Quais são os imóveis que a House Rocket deveria comprar e por qual preço?
