@@ -44,7 +44,7 @@ Cronograma de estratégias para resolução do projeto:
 
 # Ferramentas
 
-Python 3.8.10
+Python 3.9.13
 
 Streamlit
 
