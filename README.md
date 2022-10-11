@@ -75,7 +75,7 @@ Hipótese 9: Imóveis com mais de 2 quartos são 70% mais caros que os que possu
 Hipótese 10: Imóveis variam 4% ou mais o preço por nota de design, em média.
 - Hipótese verdadeira. Em média, imóveis variam 4% ou mais o preço por nota de design.
 
-# Resultados financeiros
+# Resultado financeiro
 
 |Valor total|Retorno|Lucro|
 |--|--|--|
