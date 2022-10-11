@@ -46,8 +46,6 @@ Cronograma de estratégias para resolução do projeto:
 
 Python 3.8.10
 
-Vscode
-
 Streamlit
 
 Amazon EC2
@@ -55,6 +53,8 @@ Amazon EC2
 Manipulação de dados: pandas, numpy
 
 Visualização de dados: seaborn, plotly, folium
+
+Ambientes de desenvolvimento: VSCode, Jupyterlab
 
 # Principais insights
 
