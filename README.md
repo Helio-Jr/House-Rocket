@@ -75,6 +75,12 @@ Hipótese 9: Imóveis com mais de 2 quartos são 70% mais caros que os que possu
 Hipótese 10: Imóveis variam 4% ou mais o preço por nota de design, em média.
 - Hipótese verdadeira. Em média, imóveis variam 4% ou mais o preço por nota de design.
 
+# Resultados financeiros
+
+|Valor total|Retorno|Lucro|
+|..|..|..|
+|$1.247.701.436|$1.535.581.285|$287.879.849|
+
 # Conclusão
 
 Foram calculadas as medianas do preço dos imóveis dentro de cada estação do ano por região. Todos os imóveis com o valor inferior a maior mediana de preço da sua região e com distancia de pelo menos 5% a ela foram indicados para compra. Para cada um desses imóveis selecionados foi sugerido o valor e melhor momento de venda, variando de acordo com sua região, condição e melhor mediana de preço por estação da sua região.
