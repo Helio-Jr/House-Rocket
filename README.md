@@ -78,7 +78,7 @@ Hipótese 10: Imóveis variam 4% ou mais o preço por nota de design, em média.
 # Resultados financeiros
 
 |Valor total|Retorno|Lucro|
-|..|..|..|
+|--|--|--|
 |$1.247.701.436|$1.535.581.285|$287.879.849|
 
 # Conclusão
