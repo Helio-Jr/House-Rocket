@@ -14,6 +14,7 @@ from folium.plugins   import MarkerCluster
 # settings
 # ------------------------------------------
 
+st.set_option('server.useWatchdogFileWatcher', False)
 st.set_page_config( layout='wide' )
 sns.set()
 
