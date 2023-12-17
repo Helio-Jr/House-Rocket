@@ -1,5 +1,4 @@
 from email.policy import default
-#from turtle import color
 import streamlit as st
 import pandas    as pd
 import numpy     as np
@@ -212,7 +211,7 @@ def hypothesis(df): #Apresentando todas as hipóteses na tela
 
 def question1(data, df): #Resolvendo a primeira questão de negócio
     #Quais são os imóveis que a House Rocket deveria comprar e por qual preço?
-    st.header('Quais são os imóveis que a House Rocket deveria comprar e por qual preço?')
+    st.header('1. Quais são os imóveis que a House Rocket deveria comprar e por qual preço?')
 
     df_agrouped = data[['zipcode', 'price']].groupby('zipcode').median().sort_values('price').reset_index()
     df_filtrado = data.loc[:, ['id', 'lat', 'long', 'zipcode', 'season', 'condition', 'waterfront', 'bathrooms', 'bedrooms', 'price']]
@@ -256,7 +255,7 @@ def question1(data, df): #Resolvendo a primeira questão de negócio
 def question2(df_compra): #Respondendo a segunda questão de negócio
     #Uma vez a casa comprada, qual o melhor momento para vendê-las e por qual preço?
     try:
-        st.header('Uma vez a casa comprada, qual o melhor momento para vendê-las e por qual preço?')
+        st.header('2. Uma vez a casa comprada, qual o melhor momento para vendê-las e por qual preço?')
 
         df_agrouped = df_compra[['zipcode', 'season', 'price']].groupby(['zipcode', 'season']).median().sort_values('zipcode').reset_index()
         df_agrouped = df_agrouped.rename(columns={'price':'season_median_price'})
