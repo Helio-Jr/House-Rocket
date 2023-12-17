@@ -14,13 +14,6 @@ from folium.plugins   import MarkerCluster
 # settings
 # ------------------------------------------
 
-import pyinotify
-import resource
-
-# Aumenta o limite do inotify
-resource.setrlimit(resource.RLIMIT_NOFILE, (4096, resource.getrlimit(resource.RLIMIT_NOFILE)[1]))
-
-st.set_option('server.useWatchdogFileWatcher', False)
 st.set_page_config( layout='wide' )
 sns.set()
 
