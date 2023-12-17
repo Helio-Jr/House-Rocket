@@ -66,9 +66,9 @@ def selling_price(x): #Determinando o preço de venda a partir da condição e m
 # ------------------------------------------
 
 def data_overview(df):
-    st.title('Bem-vindo(a) ao dashboard de análise da House Rocket - Desenvolvido por Hélio Jr.')
-    st.header('Visão geral dos dados')
-    st.sidebar.title('Visão geral dos dados')
+    st.title('Welcome to House Rocket Dashboard')
+    st.header('Data Overview')
+    st.sidebar.title('Data Overview')
 
     input_id = st.sidebar.number_input('Digite o ID do imóvel que deseja:', key = 0) #Colocando a opção do usuário digitar um número (Que deve ser um id)
 
@@ -84,9 +84,8 @@ def data_overview(df):
 
     c1, c2 = st.columns((1, 4))  
 
-    c1.header('Tipos dos dados')
-    df_types = df.dtypes.astype(str)
-    c1.write(df_types) #Apresentando os tipos de variáveis de cada coluna do dataframe na tela
+    c1.header('Data types')
+    c1.write((df.dtypes).astype(str)) #Apresentando os tipos de variáveis de cada coluna do dataframe na tela
 
     df_num = df.drop(['id', 'date', 'month', 'season'], axis=1) #Selecionando as colunas úteis pra analisar estatísticamente
 
@@ -102,7 +101,7 @@ def data_overview(df):
     desc_stats.columns = ['min', 'max', 'range', 'median', 'mean', 'std']
     desc_stats = desc_stats.T
 
-    c2.header('Tabela de análise descritiva')
+    c2.header('Descriptive statistics table')
     c2.write(desc_stats)
 
 # ------------------------------------------
@@ -199,7 +198,7 @@ def h9_h10(df): #Testando hipóteses 9 e 10
     c2.write('Hipótese verdadeira.')
 
 def hypothesis(df): #Apresentando todas as hipóteses na tela
-    st.title('Hipóteses')
+    st.title('Hypothesis')
     h1_h2(df)
     h3_h4(df)
     h5_h6(df)
@@ -256,6 +255,7 @@ def question1(data, df): #Resolvendo a primeira questão de negócio
 def question2(df_compra): #Respondendo a segunda questão de negócio
     #Uma vez a casa comprada, qual o melhor momento para vendê-las e por qual preço?
     try:
+
         st.header('Uma vez a casa comprada, qual o melhor momento para vendê-las e por qual preço?')
 
         df_agrouped = df_compra[['zipcode', 'season', 'price']].groupby(['zipcode', 'season']).median().sort_values('zipcode').reset_index()
@@ -292,8 +292,8 @@ def question2(df_compra): #Respondendo a segunda questão de negócio
         st.subheader('Não existe nenhum imóvel que corresponda com os valores solicitados')
 
 def business_questions(df): #Exibindo o resultado das duas questões de negócio + apresentando o lucro obtido caso a empresa aplicasse o método de precificar e vender os imóveis dentro dos imóveis sugeridos para compra
-    st.title('Questões de negócio')
-    st.sidebar.title('Questoes de negócio')
+    st.title('Business questions')
+    st.sidebar.title( 'Business questions' )
     st.sidebar.subheader( 'Altere os filtros para selecionar o imóvel ideal:' )
 
     # filters
